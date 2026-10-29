@@ -25,19 +25,3 @@ python counter.py
 ```
 
 On Windows, you can also double-click `run.bat`.
-
-## Publish to GitHub
-
-1. Create a new, empty repository on GitHub. Do not initialize it with a README, license, or `.gitignore`.
-2. Open PowerShell in this folder and run:
-
-   ```powershell
-   git init
-   git add counter.py run.bat .gitignore README.md
-   git commit -m "Initial commit: Python overlay run counter"
-   git branch -M main
-   git remote add origin https://github.com/YOUR_USERNAME/python-run-counter.git
-   git push -u origin main
-   ```
-
-Replace `YOUR_USERNAME` with your GitHub username. Git must be installed, and you must have permission to push to the repository.
